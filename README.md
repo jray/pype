@@ -49,9 +49,7 @@ var funcs = [
 
 pype( funcs, deps )
   .on('data', function( data ) {
-    t.equal( data.foo, 2 );
-    t.equal( data.bar, 6 );
-    t.end();
+    console.log( data ); // { foo: 2, bar: 6 }
   })
   .on('error', function(e){
     throw e;
