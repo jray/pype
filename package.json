@@ -1,0 +1,27 @@
+{
+  "name": "pype",
+  "version": "0.0.5",
+  "description": "Sequential stream processing with dependency injection",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js | tnyan"
+  },
+  "keywords": [
+    "stream",
+    "pipe",
+    "dependency",
+    "injection"
+  ],
+  "author": "Johnny Ray Austin <johnny@johnnyray.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "resumer": "0.0.0",
+    "tap-nyan": "0.0.2",
+    "tape": "^4.0.1"
+  },
+  "dependencies": {
+    "async": "^1.4.0",
+    "event-stream": "^3.3.1"
+  }
+}
