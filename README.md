@@ -3,6 +3,10 @@
 
 Sequential stream processing with dependency injection
 
+```
+npm install pype --save
+```
+
 ```javascript
 
 var pype  = require( 'pype' );
@@ -53,4 +57,9 @@ pype( funcs, deps )
     throw e;
   }).write( {} );
 
+```
+
+## Run Test
+```
+npm test
 ```

@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node test/test.js | tnyan"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jray/pype.git"
+  },
   "keywords": [
     "stream",
     "pipe",
